@@ -1,8 +1,8 @@
 {
     "name": "EDGG D-ATIS",
-    "id": "9d80750b-aceb-49e4-a79b-93bafef9624f",
+    "id": "8678eff9-a005-46ba-a9ba-6aeb513954b2",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2026032401,
+    "updateSerial": 2026041801,
     "stations": [
         {
             "id": "73ec3511-7995-4a7f-bd5f-95f297696102",
@@ -6662,10 +6662,10 @@
                 {
                     "id": "4c1ee2dc-95c7-4e07-b3a2-b6e5e58c2324",
                     "ordinal": 1,
-                    "name": "23L | ILS",
+                    "name": "23L",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS DOT\r\nRWY_23L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
+                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] DOT\r\nRWY_23L\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -6679,10 +6679,10 @@
                 {
                     "id": "3b207d79-49f9-4956-9cc4-d63044445827",
                     "ordinal": 2,
-                    "name": "DEP 23L - ARR 23R | ILS",
+                    "name": "DEP 23L - ARR 23R",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS RWY 23R DOT\r\nRWY_23L_23R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
+                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] RWY 23R DOT\r\nRWY_23L_23R\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -6696,10 +6696,10 @@
                 {
                     "id": "55d0c754-c388-4c7e-83ec-dd318b4d7caa",
                     "ordinal": 3,
-                    "name": "DEP 23L - ARR 23R 23L | ILS",
+                    "name": "DEP 23L - ARR 23R 23L",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS RWY 23L OR RWY 23R DOT\r\nRWY_23L_23R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
+                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] RWY 23L OR RWY 23R DOT\r\nRWY_23L_23R\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -6713,10 +6713,10 @@
                 {
                     "id": "1dfead01-e839-4aba-b559-1e7418775616",
                     "ordinal": 4,
-                    "name": "05R | ILS",
+                    "name": "05R",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS DOT\r\nRWY_05R\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
+                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] DOT\r\nRWY_05R\r\nTWY_INCURSION\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -6730,10 +6730,10 @@
                 {
                     "id": "43116b9b-c360-4161-b9d0-8e78a8eca34d",
                     "ordinal": 5,
-                    "name": "DEP 05R - ARR 05L | ILS",
+                    "name": "DEP 05R - ARR 05L",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS RWY 05L DOT\r\nRWY_05R_05L\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
+                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] RWY 05L DOT\r\nRWY_05R_05L\r\nTWY_INCURSION\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -6747,112 +6747,10 @@
                 {
                     "id": "fdb86a31-9381-4e06-97dd-0611527f3955",
                     "ordinal": 6,
-                    "name": "DEP 05R - ARR 05L 05R | ILS",
+                    "name": "DEP 05R - ARR 05L 05R",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS RWY 05L OR RWY 05R DOT\r\nRWY_05R_05L\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
-                    "externalGenerator": {
-                        "enabled": false,
-                        "textUrl": "",
-                        "voiceUrl": "",
-                        "arrival": "",
-                        "departure": "",
-                        "approaches": "",
-                        "remarks": ""
-                    }
-                },
-                {
-                    "id": "bd8014a3-2067-4114-91fd-39c2acc90061",
-                    "ordinal": 8,
-                    "name": "23L | RNP",
-                    "airportConditions": "",
-                    "notams": "",
-                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP DOT\r\nRWY_23L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
-                    "externalGenerator": {
-                        "enabled": false,
-                        "textUrl": "",
-                        "voiceUrl": "",
-                        "arrival": "",
-                        "departure": "",
-                        "approaches": "",
-                        "remarks": ""
-                    }
-                },
-                {
-                    "id": "2a874982-686d-46f5-9b66-abdfe10e8aa4",
-                    "ordinal": 9,
-                    "name": "DEP 23L - ARR 23R | RNP",
-                    "airportConditions": "",
-                    "notams": "",
-                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP RWY 23R DOT\r\nRWY_23L_23R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
-                    "externalGenerator": {
-                        "enabled": false,
-                        "textUrl": "",
-                        "voiceUrl": "",
-                        "arrival": "",
-                        "departure": "",
-                        "approaches": "",
-                        "remarks": ""
-                    }
-                },
-                {
-                    "id": "a1ccc10a-ca0e-469d-9c28-8742d7b3c51c",
-                    "ordinal": 10,
-                    "name": "DEP 23L - ARR 23R 23L | RNP",
-                    "airportConditions": "",
-                    "notams": "",
-                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP RWY 23L OR RWY 23R DOT\r\nRWY_23L_23R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
-                    "externalGenerator": {
-                        "enabled": false,
-                        "textUrl": "",
-                        "voiceUrl": "",
-                        "arrival": "",
-                        "departure": "",
-                        "approaches": "",
-                        "remarks": ""
-                    }
-                },
-                {
-                    "id": "fd17de41-5155-4686-96f4-e7ddd62ab259",
-                    "ordinal": 11,
-                    "name": "05R | RNP",
-                    "airportConditions": "",
-                    "notams": "",
-                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP DOT\r\nRWY_05R\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
-                    "externalGenerator": {
-                        "enabled": false,
-                        "textUrl": "",
-                        "voiceUrl": "",
-                        "arrival": "",
-                        "departure": "",
-                        "approaches": "",
-                        "remarks": ""
-                    }
-                },
-                {
-                    "id": "f70ae24d-0f3f-4b3e-880a-f869879877bb",
-                    "ordinal": 12,
-                    "name": "DEP 05R - ARR 05L | RNP",
-                    "airportConditions": "",
-                    "notams": "",
-                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP RWY 05L DOT\r\nRWY_05R_05L\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
-                    "externalGenerator": {
-                        "enabled": false,
-                        "textUrl": "",
-                        "voiceUrl": "",
-                        "arrival": "",
-                        "departure": "",
-                        "approaches": "",
-                        "remarks": ""
-                    }
-                },
-                {
-                    "id": "e0e6e22e-75ac-466b-a5f8-9dc35cc95510",
-                    "ordinal": 13,
-                    "name": "DEP 05R - ARR 05L 05R | RNP",
-                    "airportConditions": "",
-                    "notams": "",
-                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP RWY 05L OR RWY 05R DOT\r\nRWY_05R_05L\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
+                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] RWY 05L OR RWY 05R DOT\r\nRWY_05R_05L\r\nTWY_INCURSION\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -6973,8 +6871,13 @@
             ],
             "airportConditionDefinitions": [
                 {
-                    "text": "DCL_INOP",
+                    "text": "ILS",
                     "ordinal": 1,
+                    "enabled": true
+                },
+                {
+                    "text": "RNP",
+                    "ordinal": 2,
                     "enabled": false
                 }
             ],
@@ -7022,6 +6925,11 @@
                 {
                     "text": "SRA_ON_REQ",
                     "ordinal": 9,
+                    "enabled": false
+                },
+                {
+                    "text": "DCL_INOP",
+                    "ordinal": 10,
                     "enabled": false
                 }
             ]
