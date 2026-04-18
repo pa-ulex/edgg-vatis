@@ -1,8 +1,8 @@
 {
   "name": "EDGG D-ATIS",
-  "id": "8678eff9-a005-46ba-a9ba-6aeb513954b2",
+  "id": "9d80750b-aceb-49e4-a79b-93bafef9624f",
   "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-  "updateSerial": 2026032401,
+  "updateSerial": 2026012501,
   "stations": [
     {
       "id": "73ec3511-7995-4a7f-bd5f-95f297696102",
@@ -16,10 +16,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -1839,10 +1836,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -2434,10 +2428,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -4257,10 +4248,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -4673,7 +4661,7 @@
       "id": "c12a7fa9-2958-40ef-a778-c3e3bfba2e2f",
       "ordinal": 2,
       "identifier": "EDDL",
-      "name": "Düsseldorf",
+      "name": "D\u00fcsseldorf",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -4681,10 +4669,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -6504,10 +6489,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -6662,10 +6644,10 @@
         {
           "id": "4c1ee2dc-95c7-4e07-b3a2-b6e5e58c2324",
           "ordinal": 1,
-          "name": "23L",
+          "name": "23L | ILS",
           "airportConditions": "",
           "notams": "",
-          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] DOT\r\nRWY_23L\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS DOT\r\nRWY_23L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6679,10 +6661,10 @@
         {
           "id": "3b207d79-49f9-4956-9cc4-d63044445827",
           "ordinal": 2,
-          "name": "DEP 23L - ARR 23R",
+          "name": "DEP 23L - ARR 23R | ILS",
           "airportConditions": "",
           "notams": "",
-          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] RWY 23R DOT\r\nRWY_23L_23R\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS RWY 23R DOT\r\nRWY_23L_23R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6696,10 +6678,10 @@
         {
           "id": "55d0c754-c388-4c7e-83ec-dd318b4d7caa",
           "ordinal": 3,
-          "name": "DEP 23L - ARR 23R 23L",
+          "name": "DEP 23L - ARR 23R 23L | ILS",
           "airportConditions": "",
           "notams": "",
-          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] RWY 23L OR RWY 23R DOT\r\nRWY_23L_23R\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS RWY 23L OR RWY 23R DOT\r\nRWY_23L_23R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6713,10 +6695,10 @@
         {
           "id": "1dfead01-e839-4aba-b559-1e7418775616",
           "ordinal": 4,
-          "name": "05R",
+          "name": "05R | ILS",
           "airportConditions": "",
           "notams": "",
-          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] DOT\r\nRWY_05R\r\nTWY_INCURSION\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS DOT\r\nRWY_05R\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6730,10 +6712,10 @@
         {
           "id": "43116b9b-c360-4161-b9d0-8e78a8eca34d",
           "ordinal": 5,
-          "name": "DEP 05R - ARR 05L",
+          "name": "DEP 05R - ARR 05L | ILS",
           "airportConditions": "",
           "notams": "",
-          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] RWY 05L DOT\r\nRWY_05R_05L\r\nTWY_INCURSION\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS RWY 05L DOT\r\nRWY_05R_05L\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6747,10 +6729,112 @@
         {
           "id": "fdb86a31-9381-4e06-97dd-0611527f3955",
           "ordinal": 6,
-          "name": "DEP 05R - ARR 05L 05R",
+          "name": "DEP 05R - ARR 05L 05R | ILS",
           "airportConditions": "",
           "notams": "",
-          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] RWY 05L OR RWY 05R DOT\r\nRWY_05R_05L\r\nTWY_INCURSION\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS RWY 05L OR RWY 05R DOT\r\nRWY_05R_05L\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "bd8014a3-2067-4114-91fd-39c2acc90061",
+          "ordinal": 8,
+          "name": "23L | RNP",
+          "airportConditions": "",
+          "notams": "",
+          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP DOT\r\nRWY_23L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "2a874982-686d-46f5-9b66-abdfe10e8aa4",
+          "ordinal": 9,
+          "name": "DEP 23L - ARR 23R | RNP",
+          "airportConditions": "",
+          "notams": "",
+          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP RWY 23R DOT\r\nRWY_23L_23R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "a1ccc10a-ca0e-469d-9c28-8742d7b3c51c",
+          "ordinal": 10,
+          "name": "DEP 23L - ARR 23R 23L | RNP",
+          "airportConditions": "",
+          "notams": "",
+          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP RWY 23L OR RWY 23R DOT\r\nRWY_23L_23R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "fd17de41-5155-4686-96f4-e7ddd62ab259",
+          "ordinal": 11,
+          "name": "05R | RNP",
+          "airportConditions": "",
+          "notams": "",
+          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP DOT\r\nRWY_05R\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "f70ae24d-0f3f-4b3e-880a-f869879877bb",
+          "ordinal": 12,
+          "name": "DEP 05R - ARR 05L | RNP",
+          "airportConditions": "",
+          "notams": "",
+          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP RWY 05L DOT\r\nRWY_05R_05L\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "e0e6e22e-75ac-466b-a5f8-9dc35cc95510",
+          "ordinal": 13,
+          "name": "DEP 05R - ARR 05L 05R | RNP",
+          "airportConditions": "",
+          "notams": "",
+          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP RWY 05L OR RWY 05R DOT\r\nRWY_05R_05L\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6871,13 +6955,8 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "ILS",
+          "text": "DCL_INOP",
           "ordinal": 1,
-          "enabled": true
-        },
-        {
-          "text": "RNP",
-          "ordinal": 2,
           "enabled": false
         }
       ],
@@ -6926,11 +7005,6 @@
           "text": "SRA_ON_REQ",
           "ordinal": 9,
           "enabled": false
-        },
-        {
-          "text": "DCL_INOP",
-          "ordinal": 10,
-          "enabled": false
         }
       ]
     },
@@ -6938,7 +7012,7 @@
       "id": "2f34dbbf-e351-40e8-81fe-88ba736cae19",
       "ordinal": 3,
       "identifier": "EDDK",
-      "name": "Köln/Bonn",
+      "name": "K\u00f6ln/Bonn",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -6946,10 +7020,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -8769,10 +8840,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -9376,10 +9444,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -11199,10 +11264,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -11625,7 +11687,7 @@
       "id": "855fbced-761e-482a-9e6a-8537a0a0aa96",
       "ordinal": 5,
       "identifier": "EDDG",
-      "name": "Münster/Osnabrück",
+      "name": "M\u00fcnster/Osnabr\u00fcck",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -11633,10 +11695,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -13456,10 +13515,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -13820,7 +13876,7 @@
       "id": "dca8cc88-4338-429c-85b0-5070b56685de",
       "ordinal": 6,
       "identifier": "EDDR",
-      "name": "Saarbrücken",
+      "name": "Saarbr\u00fccken",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -13828,10 +13884,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -15651,10 +15704,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -16023,10 +16073,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -17846,10 +17893,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -18203,10 +18247,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -20026,10 +20067,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -20373,10 +20411,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -22196,10 +22231,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -22505,7 +22537,7 @@
       "id": "17a09a7c-fcf7-429b-85b6-afe7ad1e1c69",
       "ordinal": 10,
       "identifier": "EDLN",
-      "name": "Mönchengladbach",
+      "name": "M\u00f6nchengladbach",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
@@ -22513,10 +22545,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -24336,10 +24365,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -24663,10 +24689,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -26486,10 +26509,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -26853,10 +26873,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -28676,10 +28693,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -29073,10 +29087,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -30896,10 +30907,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -33091,10 +33099,7 @@
           "identifyCeilingLayer": true,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -35199,10 +35204,7 @@
           "identifyCeilingLayer": true,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -35446,10 +35448,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -37269,10 +37268,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -39335,10 +39331,7 @@
           "identifyCeilingLayer": true,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
